@@ -1,0 +1,137 @@
+
+body{
+  margin:0px;
+  
+}
+
+@media (max-width:964px)
+{
+ .card{
+   margin:auto;
+   width:100%;
+ }
+
+}
+#contact-us{
+  padding:2%;
+  text-align:center;
+  background-color: #a4c639;
+}
+#feature-products{
+  padding:5% 5% 5%;
+  background-color: #f7f7f7;
+}
+#btn-success{
+  background-color: #a4c639;
+}
+#btn-success:hover{
+  background-color:green;
+}
+#who-are-we{
+  padding:5% 4% 10%;
+  color:white;
+  background-image: url('powerbank-smartphone-cord-dark-gray-background-space-text_185193-134435.jpg');
+  background-attachment: fixed;
+  
+}
+
+#testimonial{
+  padding:10% 5% 5%;
+  background-color: #f7f7f7;
+}
+.card{
+  padding:4%;
+ margin:auto;
+  text-align:center;
+  margin-bottom:10px;
+}
+
+.card-text {
+  text-align:center;
+    font-size: 17px;
+    font-weight: 400;}
+h1{
+  font-size:40px;
+  font-weight:600;
+ 
+}
+p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:18px;
+  font-weight: -100;
+  line-height: 30px;
+}
+#contactus{
+  padding:10% 10% 5%;
+}
+#form{
+  background-color:#a4c639;
+  padding:6% 7%;
+  border-radius:5px 20px 5px 20px;
+}
+span{
+  color:#a4c639;
+}
+.contact-header{
+  text-align:center;
+  margin-bottom:50px;
+}
+
+
+input{
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+}
+.contact-input{
+  margin:15px 12px;
+  width:100%;
+  border-radius:15px 5px 15px 5px;
+}
+ input.contact-input{
+  height:40px;
+}
+.contact-BUTTON{
+text-align:center;
+
+}
+footer{
+  padding:7% 7%;
+  font-family:sans-serif Arial, Helvetica, sans-serif;
+}
+.sub-footer{
+  padding:3% 15%;
+  text-align:center;
+  
+}
+footer a{
+  text-decoration:none;
+  color:white;
+}
+li{
+  list-style-type:none;
+  line-height:2.3;
+}
+#footer-h4{
+  margin-bottom:25px;
+}
+.footer-item{
+  padding:0 50px;
+}
+li a:hover{
+  color:#a4c639;
+}
+a{
+  color:white;
+}
+footer ul.menu-list li a {
+    font-size: 17px;
+  
+    }
+#navbar{
+  width:100%;
+  padding:10px;
+}

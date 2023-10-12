@@ -1,0 +1,128 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>PLACE ORDER</title>
+    <style>
+        body{
+            margin:0px;
+            background-image:url('imgbin_financial-transaction-payment-png.PNG');
+            background-position:center;
+            background-size: 1000PX;
+            background-repeat: no-repeat;
+            background-position-y:center;
+        }
+        
+        fieldset{
+         backdrop-filter: blur(15px);  
+        }
+        </style>
+</head>
+
+<body>
+    <center>
+        <img src="IMG_20230930_230206.JPG" width="400px">
+        <P>
+            <H1>payment options</H1>
+        </P><BR></center>
+          <center>
+        <form>
+            <fieldset style="width:50%; border-radius:5px;
+            box-shadow:5px 0px 10px grey;">
+                <table cellspacing="10px">
+                    <tbody>
+                        <tr>
+                            <td><label>PAYMENT METHOD:</label></td>
+                            <td> <select style="width:200px; height:25px;" required>
+                                    <option value="paypal">paypal</option>
+                                    <option value="card">card</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label>YOUR PAYPAL EMAIL*:</label></td>
+                            <td><input type="mail" style="width:200px; height:25px;"></td>
+                        </tr>
+                        <tr>
+                            <td><label>YOUR PASSWORD:</label></td>
+                            <td><input type="password" style="width:200px; height:25px;"></td>
+                        </tr>
+                        <tr rowspan="2">
+                            <td>
+                                <hr>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td><label for="quantity">Quantity:</label> </td>
+                            <td> <input type="number" id="quantity" name="quantity" min="1"
+                                    style="width:200px; height:30px;border-radius:5px;" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="delivery_address">Delivery Address:</label></td>
+                            <td><textarea style="width:200px; height:50px;border-radius:5px;" rows="4"
+                                    required></textarea></td>
+                        </tr>
+                        <TR>
+                            <td><label> CARD NO:</label></td>
+                            <td> <input type="TEXT" style="width:200px; height:30px;border-radius:5px;" required>
+
+                            </td>
+                        </TR>
+
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+
+
+                                        <td><label>EXP DATE:</label></td>
+                                        <td> <input type="date" style="width:100px; height:30px;border-radius:5px;"
+                                                required></td>
+                                    </tr>
+                                </table>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td><label>4 DIGITS:</label>
+                                        </td>
+                                        <td> <input type="number" min="4" max="4" style="width:120px; 
+                                            height:30px;border-radius:5px;" required>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            </td>
+                        </tr>
+
+
+
+
+
+
+                        <tr>
+                            <td colspan="2"><input type="checkbox">
+                                <label><i>I agree with your <a href="termsandconditions.html">terms and conditions</a>
+                                    </i></label></td>
+                        </tr>
+
+                    </tbody>
+                </table><br>
+                <center>
+                    <input type="submit" value="Pay" style="width:200px;color:white;
+                background-color:BLACK; height:30px;border-radius:15px;"></center>
+            </fieldset>
+
+            <a style=" color:black;" href="index.html">
+                <h2>home</h2>
+            </a></td>
+</form></center>
+    
+
+
+</body>
+
+</html>
